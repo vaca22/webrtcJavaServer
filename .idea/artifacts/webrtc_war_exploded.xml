@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webrtc:war exploded">
+    <output-path>$PROJECT_DIR$/target/webrtc-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>webrtc</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webrtc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:javax.servlet.jsp.jstl:1.2.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: com.corundumstudio.socketio:netty-socketio:1.7.12" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-native-epoll:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
+          <element id="library" level="project" name="Maven: io.socket:socket.io-client:1.0.0" />
+          <element id="library" level="project" name="Maven: io.socket:engine.io-client:1.0.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.8.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.13.0" />
+          <element id="library" level="project" name="Maven: org.json:json:20090211" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/webrtc-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webrtc/web/Web" />
+    </root>
+  </artifact>
+</component>
